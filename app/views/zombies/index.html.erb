@@ -16,6 +16,7 @@
     <% @zombies.each do |zombie| %>
       <tr>
         <td><%= zombie.name %></td>
+        <td><%= zombie.brain.flavor %></td>
         <td><%= zombie.bio %></td>
         <td><%= zombie.age %></td>
         <td><%= link_to 'Show', zombie %></td>
